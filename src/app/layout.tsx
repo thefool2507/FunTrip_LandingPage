@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+// @ts-ignore: allow global CSS import without explicit declaration
 import "./globals.css";
 import Navbar from "@/components/navbar";
 

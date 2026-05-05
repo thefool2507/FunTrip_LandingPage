@@ -89,8 +89,8 @@ export default function PricingGuide() {
                 key={tier.name}
                 className={`relative rounded-2xl overflow-hidden border transition-all duration-300 hover:shadow-xl hover:-translate-y-1 ${
                   isPopular
-                    ? `bg-gradient-to-br ${tier.bg} text-white shadow-lg shadow-teal-200`
-                    : `bg-gradient-to-br ${tier.bg} ${tier.border}`
+                    ? `bg-linear-to-br ${tier.bg} text-white shadow-lg shadow-teal-200`
+                    : `bg-linear-to-br ${tier.bg} ${tier.border}`
                 }`}
               >
                 {isPopular && (
@@ -160,14 +160,6 @@ export default function PricingGuide() {
           })}
         </div>
 
-        {/* Disclaimer */}
-        <div className="flex items-start gap-3 bg-muted/60 rounded-xl p-4 border border-border max-w-2xl mx-auto">
-          <Info className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-          <p className="text-xs text-muted-foreground">
-            Prices are estimates in Indonesian Rupiah (IDR) per person per day, based on peak season 2024 data. 
-            Actual costs may vary. Exchange rates and seasonal changes apply.
-          </p>
-        </div>
       </div>
     </section>
   );

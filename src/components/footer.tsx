@@ -76,7 +76,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-background/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-background/40">
-            © 2024 FunTrip. All rights reserved. Made with ♥ in Indonesia.
+            © 2026 FunTrip. All rights reserved. Designed and developed by the reza.lnc.
           </p>
           <div className="flex items-center gap-1 text-xs text-background/40">
             <span className="w-2 h-2 rounded-full bg-emerald-400" />
