@@ -22,7 +22,7 @@ export default function NewsletterSection() {
             "url(https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1600&q=80)",
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-br from-teal-900/90 to-slate-900/90" />
+      <div className="absolute inset-0 bg-linear-to-br from-teal-900/90 to-slate-900/90" />
 
       <div className="relative z-10 max-w-2xl mx-auto text-center">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/80 text-sm font-medium mb-6">

@@ -78,7 +78,7 @@ export default function CategoriesSection() {
             return (
               <button
                 key={cat.name}
-                className={`group flex flex-col items-center gap-3 p-6 rounded-2xl bg-gradient-to-br ${colors.bg} border border-transparent ${colors.border} transition-all duration-300 hover:shadow-md hover:-translate-y-1 cursor-pointer text-center`}
+                className={`group flex flex-col items-center gap-3 p-6 rounded-2xl bg-linear-to-br ${colors.bg} border border-transparent ${colors.border} transition-all duration-300 hover:shadow-md hover:-translate-y-1 cursor-pointer text-center`}
               >
                 <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${colors.icon} transition-transform group-hover:scale-110`}>
                   {CategoryIcons[cat.name]}

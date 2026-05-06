@@ -26,7 +26,7 @@ export default function HeroSection() {
             "url(https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1920&q=80)",
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-slate-800/50 to-slate-900/80" />
+      <div className="absolute inset-0 bg-linear-to-b from-slate-900/70 via-slate-800/50 to-slate-900/80" />
 
       {/* Floating Stats */}
       <div className="absolute top-32 left-6 md:left-16 hidden md:block">
@@ -62,7 +62,7 @@ export default function HeroSection() {
         {/* Headline */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6 leading-tight tracking-tight">
           Your Next{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-cyan-300">
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-teal-300 to-cyan-300">
             Adventure
           </span>
           <br />

@@ -6,12 +6,12 @@ A modern travel landing page built with **Next.js 16**, **Tailwind CSS v4**, and
 
 ## Features
 
-- 🗺️ Curated destination recommendations
-- ⭐ Real traveler reviews & ratings
-- 💰 Budget / price range guide (Budget → Luxury)
-- 🔍 Search & category filtering
-- 📱 Fully responsive (mobile-first)
-- ⚡ Optimised images via Next.js Image
+- Curated destination recommendations
+- Real traveler reviews & ratings
+- Budget / price range guide (Budget → Luxury)
+- Search & category filtering
+- Fully responsive (mobile-first)
+- Optimised images via Next.js Image
 
 ## Tech Stack
 
@@ -78,4 +78,4 @@ src/
 
 ---
 
-Made with ♥ in Indonesia
+Made with reza_lnc
