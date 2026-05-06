@@ -150,7 +150,7 @@ export default function PricingGuide() {
                   </div>
 
                   <button
-                    className={`w-full py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 text-white ${tier.btn}`}
+                    className={`w-full py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 text-black ${tier.btn}`}
                   >
                     Explore {tier.name.split(" ")[0]} Trips →
                   </button>
