@@ -1,4 +1,4 @@
-# FunTrip 🌴
+# FunTrip
 
 > Discover Indonesia's Best Destinations
 
@@ -40,14 +40,8 @@ npm run build
 
 Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-## Deploy
 
-### Vercel (Recommended)
-1. Push this repo to GitHub
-2. Import the project at [vercel.com/new](https://vercel.com/new)
-3. Vercel auto-detects Next.js — click **Deploy**
-
-### Manual Build
+### Build
 ```bash
 npm run build
 npm start
